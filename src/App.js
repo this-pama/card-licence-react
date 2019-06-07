@@ -1,6 +1,40 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Login from './controller/login';
+import Register from './view/register';
+import Licence from './view/licence';
+import CpLicenceApp from './controller/cpLicence';
+import SubCpLicence from './view/subCpLicence';
+import RetailerLicence from './view/retailerLicence';
+import LicenceApp from './controller/licence';
+
+export class NewApp extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ready: false
+    };
+  }
+
+  componentDidMount() {
+    setTimeout(
+      () =>
+        this.setState({
+          ready: true
+        }),
+      1000
+    );
+  }
+
+  render() {
+    if (!this.state.ready) {
+      return <App />;
+    } else {
+      return <CpLicenceApp />;
+    }
+  }
+}
 
 function App() {
   return (
@@ -23,4 +57,4 @@ function App() {
   );
 }
 
-export default App;
+export default NewApp;
