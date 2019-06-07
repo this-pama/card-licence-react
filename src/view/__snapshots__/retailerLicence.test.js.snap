@@ -27,9 +27,7 @@ exports[`test RetailerLicence view page test snapshot of RetailerLicence view pa
           }
         }
       >
-        <form
-          className=""
-        >
+        <div>
           <div
             style={
               Object {
@@ -47,9 +45,17 @@ exports[`test RetailerLicence view page test snapshot of RetailerLicence view pa
                 }
               }
             >
-              Register Retailer Card Licence
+              Retailer Card Licence
             </h3>
           </div>
+          <p
+            style={
+              Object {
+                "color": "red",
+                "paddingTop": 10,
+              }
+            }
+          />
           <div
             className="form-group"
           >
@@ -88,7 +94,7 @@ exports[`test RetailerLicence view page test snapshot of RetailerLicence view pa
             </label>
             <input
               className="form-control"
-              placeholder="Device"
+              placeholder="Serial Number"
               type="text"
             />
           </div>
@@ -118,9 +124,9 @@ exports[`test RetailerLicence view page test snapshot of RetailerLicence view pa
             disabled={false}
             type="submit"
           >
-            Register Retailer Licence
+             Register Retailer Licence
           </button>
-        </form>
+        </div>
       </div>
       <div
         className="col-md-3 col-sm-2"

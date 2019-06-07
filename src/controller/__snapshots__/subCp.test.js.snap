@@ -27,9 +27,7 @@ exports[`CpLicenceApp snapshot test snapshot 1`] = `
           }
         }
       >
-        <form
-          className=""
-        >
+        <div>
           <div
             style={
               Object {
@@ -50,6 +48,16 @@ exports[`CpLicenceApp snapshot test snapshot 1`] = `
               Register Sub CP Card Licence
             </h3>
           </div>
+          <p
+            style={
+              Object {
+                "color": "red",
+                "paddingTop": 10,
+              }
+            }
+          >
+            
+          </p>
           <div
             className="form-group"
           >
@@ -60,8 +68,10 @@ exports[`CpLicenceApp snapshot test snapshot 1`] = `
             </label>
             <input
               className="form-control"
+              onChange={[Function]}
               placeholder="Full Name"
               type="text"
+              value=""
             />
           </div>
           <div
@@ -74,8 +84,10 @@ exports[`CpLicenceApp snapshot test snapshot 1`] = `
             </label>
             <input
               className="form-control"
+              onChange={[Function]}
               placeholder="Username"
               type="text"
+              value=""
             />
           </div>
           <div
@@ -88,8 +100,10 @@ exports[`CpLicenceApp snapshot test snapshot 1`] = `
             </label>
             <input
               className="form-control"
-              placeholder="Device"
+              onChange={[Function]}
+              placeholder="Serial Number"
               type="text"
+              value=""
             />
           </div>
           <div
@@ -104,8 +118,10 @@ exports[`CpLicenceApp snapshot test snapshot 1`] = `
             <input
               className="form-control"
               id="formBasicEmail"
+              onChange={[Function]}
               placeholder="Enter email"
               type="email"
+              value=""
             />
             <small
               className="text-muted form-text"
@@ -115,12 +131,13 @@ exports[`CpLicenceApp snapshot test snapshot 1`] = `
           </div>
           <button
             className="btn btn-primary btn-block"
-            disabled={false}
+            disabled={true}
+            onClick={[Function]}
             type="submit"
           >
-            Register Sub CP Licence
+             Register Sub CP Licence
           </button>
-        </form>
+        </div>
       </div>
       <div
         className="col-md-3 col-sm-2"
@@ -157,9 +174,7 @@ exports[`CpLicenceApp snapshot test snapshot 2`] = `
           }
         }
       >
-        <form
-          className=""
-        >
+        <div>
           <div
             style={
               Object {
@@ -180,6 +195,16 @@ exports[`CpLicenceApp snapshot test snapshot 2`] = `
               Register Sub CP Card Licence
             </h3>
           </div>
+          <p
+            style={
+              Object {
+                "color": "red",
+                "paddingTop": 10,
+              }
+            }
+          >
+            
+          </p>
           <div
             className="form-group"
           >
@@ -190,8 +215,10 @@ exports[`CpLicenceApp snapshot test snapshot 2`] = `
             </label>
             <input
               className="form-control"
+              onChange={[Function]}
               placeholder="Full Name"
               type="text"
+              value=""
             />
           </div>
           <div
@@ -204,8 +231,10 @@ exports[`CpLicenceApp snapshot test snapshot 2`] = `
             </label>
             <input
               className="form-control"
+              onChange={[Function]}
               placeholder="Username"
               type="text"
+              value=""
             />
           </div>
           <div
@@ -218,8 +247,10 @@ exports[`CpLicenceApp snapshot test snapshot 2`] = `
             </label>
             <input
               className="form-control"
-              placeholder="Device"
+              onChange={[Function]}
+              placeholder="Serial Number"
               type="text"
+              value=""
             />
           </div>
           <div
@@ -234,8 +265,10 @@ exports[`CpLicenceApp snapshot test snapshot 2`] = `
             <input
               className="form-control"
               id="formBasicEmail"
+              onChange={[Function]}
               placeholder="Enter email"
               type="email"
+              value=""
             />
             <small
               className="text-muted form-text"
@@ -245,12 +278,13 @@ exports[`CpLicenceApp snapshot test snapshot 2`] = `
           </div>
           <button
             className="btn btn-primary btn-block"
-            disabled={false}
+            disabled={true}
+            onClick={[Function]}
             type="submit"
           >
-            Register Sub CP Licence
+             Register Sub CP Licence
           </button>
-        </form>
+        </div>
       </div>
       <div
         className="col-md-3 col-sm-2"
