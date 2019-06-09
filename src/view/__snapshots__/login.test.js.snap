@@ -92,7 +92,7 @@ exports[`test login page page to test snapshot 1`] = `
           onClick={[Function]}
           type="submit"
         >
-            Login
+           Login
         </button>
       </div>
     </div>

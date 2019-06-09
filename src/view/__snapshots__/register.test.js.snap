@@ -152,7 +152,7 @@ exports[`test request licence page test snapshot  1`] = `
             disabled={false}
             type="submit"
           >
-               Make Request
+             Make Request
           </button>
         </div>
       </div>

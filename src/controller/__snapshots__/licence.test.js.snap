@@ -135,7 +135,7 @@ exports[`login app snapshot test snapshot 1`] = `
             onClick={[Function]}
             type="submit"
           >
-               Register A Licence
+             Register A Licence
           </button>
         </div>
       </div>
@@ -282,7 +282,7 @@ exports[`login app snapshot test snapshot 2`] = `
             onClick={[Function]}
             type="submit"
           >
-               Register A Licence
+             Register A Licence
           </button>
         </div>
       </div>

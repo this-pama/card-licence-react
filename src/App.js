@@ -8,6 +8,7 @@ import CpLicenceApp from './controller/cpLicence';
 import SubCpLicence from './controller/subCp';
 import RetailerLicence from './controller/retailer';
 import LicenceApp from './controller/licence';
+import LoginApp from './controller/login';
 
 export class NewApp extends React.Component {
   constructor(props) {
@@ -31,7 +32,7 @@ export class NewApp extends React.Component {
     if (!this.state.ready) {
       return <App />;
     } else {
-      return <RetailerLicence />;
+      return <LicenceApp />;
     }
   }
 }

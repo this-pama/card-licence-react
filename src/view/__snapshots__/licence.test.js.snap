@@ -124,7 +124,7 @@ exports[`test licence page test snapshot 1`] = `
             disabled={false}
             type="submit"
           >
-               Register A Licence
+             Register A Licence
           </button>
         </div>
       </div>

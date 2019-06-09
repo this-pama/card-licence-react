@@ -135,7 +135,7 @@ exports[`CpLicenceApp snapshot test snapshot 1`] = `
             onClick={[Function]}
             type="submit"
           >
-               Register CP Licence
+             Register CP Licence
           </button>
         </div>
       </div>
@@ -282,7 +282,7 @@ exports[`CpLicenceApp snapshot test snapshot 2`] = `
             onClick={[Function]}
             type="submit"
           >
-               Register CP Licence
+             Register CP Licence
           </button>
         </div>
       </div>

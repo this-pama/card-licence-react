@@ -124,7 +124,7 @@ exports[`test cpLicence view page test snapshot of cpLicence view page 1`] = `
             disabled={false}
             type="submit"
           >
-               Register CP Licence
+             Register CP Licence
           </button>
         </div>
       </div>

@@ -61,7 +61,7 @@ export default class LoginApp extends React.Component {
         },
         this.validateForm
       );
-      console.log(username.target.value);
+      // console.log(username.target.value);
     } else {
       this.setState({
         email: '',
@@ -78,7 +78,7 @@ export default class LoginApp extends React.Component {
         },
         this.validateForm
       );
-      console.log(password.target.value);
+      // console.log(password.target.value);
     } else {
       this.setState({
         password: '',
@@ -88,7 +88,7 @@ export default class LoginApp extends React.Component {
   };
 
   validateForm = () => {
-    let testEmail = /@/;
+    let testEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
     if (
       this.state.email.length > 0 &&
       this.state.password.length > 0 &&

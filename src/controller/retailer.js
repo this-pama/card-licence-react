@@ -125,7 +125,7 @@ export default class RetailerApp extends React.Component {
   };
 
   validateForm = () => {
-    let testEmail = /@/;
+    let testEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
     if (
       this.state.email.length > 0 &&
       this.state.fullName.length > 0 &&
