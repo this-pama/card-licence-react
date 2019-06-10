@@ -136,7 +136,8 @@ export default class LicenceApp extends React.Component {
       });
     } else {
       this.setState({
-        disable: true
+        disable: true,
+        errMessage: ''
       });
     }
   };

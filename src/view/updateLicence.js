@@ -17,7 +17,7 @@ export default class UpdateLicenceView extends React.Component {
               style={{
                 justifyContent: 'center',
                 alignItems: 'center',
-                marginTop: 10
+                marginTop: 50
               }}
             >
               <div>

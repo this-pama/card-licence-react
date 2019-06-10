@@ -170,7 +170,8 @@ export default class RequestApp extends React.Component {
       this.state.username.length > 0
     ) {
       this.setState({
-        disable: false
+        disable: false,
+        errMessage: ''
       });
     } else {
       this.setState({

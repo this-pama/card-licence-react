@@ -18,7 +18,7 @@ export default class CpLicenceView extends React.Component {
               style={{
                 justifyContent: 'center',
                 alignItems: 'center',
-                marginTop: 10
+                marginTop: 50
               }}
             >
               <div>
