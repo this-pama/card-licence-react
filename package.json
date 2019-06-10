@@ -32,6 +32,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://this-pama.github.io/card-licence-react",
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -54,6 +55,6 @@
   },
   "devDependencies": {
     "react-test-renderer": "^16.8.6"
-  },
-  "homepage": "https://this-pama.github.io/card-licence-react"
+  }
+  
 }
