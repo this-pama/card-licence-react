@@ -23,7 +23,7 @@ exports[`login app snapshot test snapshot 1`] = `
           Object {
             "alignItems": "center",
             "justifyContent": "center",
-            "marginTop": 10,
+            "marginTop": 50,
           }
         }
       >
@@ -170,7 +170,7 @@ exports[`login app snapshot test snapshot 2`] = `
           Object {
             "alignItems": "center",
             "justifyContent": "center",
-            "marginTop": 10,
+            "marginTop": 50,
           }
         }
       >

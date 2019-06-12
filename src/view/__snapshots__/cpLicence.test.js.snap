@@ -23,7 +23,7 @@ exports[`test cpLicence view page test snapshot of cpLicence view page 1`] = `
           Object {
             "alignItems": "center",
             "justifyContent": "center",
-            "marginTop": 10,
+            "marginTop": 50,
           }
         }
       >

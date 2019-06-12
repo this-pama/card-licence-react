@@ -23,7 +23,7 @@ exports[`test RetailerLicence view page test snapshot of RetailerLicence view pa
           Object {
             "alignItems": "center",
             "justifyContent": "center",
-            "marginTop": 10,
+            "marginTop": 50,
           }
         }
       >

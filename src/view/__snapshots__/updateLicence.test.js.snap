@@ -19,7 +19,7 @@ exports[`test updateLicenceView test snapshot of updateLicenceView view page 1`]
           Object {
             "alignItems": "center",
             "justifyContent": "center",
-            "marginTop": 10,
+            "marginTop": 50,
           }
         }
       >
