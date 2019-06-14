@@ -1,13 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Login from './controller/login';
-import Register from './view/register';
-import Licence from './view/licence';
-import CpLicenceApp from './controller/cpLicence';
-import SubCpLicence from './controller/subCp';
-import RetailerLicence from './controller/retailer';
-import LicenceApp from './controller/licence';
 import LoginApp from './controller/login';
 
 export class NewApp extends React.Component {
@@ -32,7 +25,7 @@ export class NewApp extends React.Component {
     if (!this.state.ready) {
       return <App />;
     } else {
-      return <LicenceApp />;
+      return <LoginApp />;
     }
   }
 }
