@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test cpLicence view page test snapshot of cpLicence view page 1`] = `
+<div
+  style={
+    Object {
+      "backgroundImage": "logo.svg",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-3 col-sm-2"
+      />
+      <div
+        className="col-md-6 col-sm-8"
+        style={
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "marginTop": 50,
+          }
+        }
+      >
+        <div>
+          <div
+            style={
+              Object {
+                "backgroundColor": "blue",
+                "border": 1,
+                "color": "white",
+              }
+            }
+          >
+            <h3
+              style={
+                Object {
+                  "padding": 15,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Register CP Card Licence
+            </h3>
+          </div>
+          <p
+            style={
+              Object {
+                "color": "red",
+                "paddingTop": 10,
+              }
+            }
+          />
+          <div
+            className="form-group"
+          >
+            <label
+              className="form-label"
+            >
+              Full Name
+            </label>
+            <input
+              className="form-control"
+              placeholder="Full Name"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              className="form-label"
+            >
+              Username
+            </label>
+            <input
+              className="form-control"
+              placeholder="Username"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              className="form-label"
+            >
+              Serial Number
+            </label>
+            <input
+              className="form-control"
+              placeholder="Serial Number"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              className="form-label"
+              htmlFor="formBasicEmail"
+            >
+              Email address
+            </label>
+            <input
+              className="form-control"
+              id="formBasicEmail"
+              placeholder="Enter email"
+              type="email"
+            />
+            <small
+              className="text-muted form-text"
+            >
+              We'll never share your email with anyone else.
+            </small>
+          </div>
+          <button
+            className="btn btn-primary btn-block"
+            disabled={false}
+            type="submit"
+          >
+             Register CP Licence
+          </button>
+        </div>
+      </div>
+      <div
+        className="col-md-3 col-sm-2"
+      />
+    </div>
+  </div>
+</div>
+`;
