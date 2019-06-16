@@ -95,7 +95,8 @@ export default class LoginApp extends React.Component {
       testEmail.test(this.state.email)
     ) {
       this.setState({
-        disable: false
+        disable: false,
+        errMessage: ''
       });
     } else {
       this.setState({
