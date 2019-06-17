@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab6efe68e65748896636e242c7b66153",
+    "revision": "af1b83d711c08a4bc80cee37aab282d6",
     "url": "/card-licence-react/index.html"
   },
   {
-    "revision": "1400332ce2103b0ce6b9",
+    "revision": "131c92b9ff59e0e5f25e",
     "url": "/card-licence-react/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "3eb68c4da937fb2240a6",
+    "revision": "7ed88ed8468107b2a4bc",
     "url": "/card-licence-react/static/css/main.986bf13c.chunk.css"
   },
   {
-    "revision": "1400332ce2103b0ce6b9",
-    "url": "/card-licence-react/static/js/2.a3cb9279.chunk.js"
+    "revision": "131c92b9ff59e0e5f25e",
+    "url": "/card-licence-react/static/js/2.d1faf77f.chunk.js"
   },
   {
-    "revision": "3eb68c4da937fb2240a6",
-    "url": "/card-licence-react/static/js/main.c47e68b3.chunk.js"
+    "revision": "7ed88ed8468107b2a4bc",
+    "url": "/card-licence-react/static/js/main.c4ebb12d.chunk.js"
   },
   {
     "revision": "94194c38ceecd650cdfb",
